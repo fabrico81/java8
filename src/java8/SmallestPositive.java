@@ -98,7 +98,6 @@ public class SmallestPositive {
         int smalles = max-1;
         System.out.println("smalles = " + smalles);
         /*
-         numero positivo piu piccolo non presente nell' array
          */
 
 
