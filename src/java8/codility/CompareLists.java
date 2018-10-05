@@ -1,4 +1,4 @@
-package java8;
+package java8.codility;
 
 import java.io.IOException;
 import java.util.ArrayList;

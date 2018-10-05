@@ -1,4 +1,4 @@
-package java8;
+package java8.codility;
 
 /**
  * A binary gap within a positive integer N
@@ -9,14 +9,15 @@ package java8;
 public class BinaryGap {
 
     public static void main(String [] args){
-        System.out.println("binaryGap = " + binaryGap(529));
+
+        System.out.println("binaryGap = " + binaryGap(1041));
     }
 
-    private static int binaryGap(int N){
+    private static int binaryGap(int n){
         int binaryGap = 0;
         boolean found_one = false;
-        for (int j = 0; N > 0; N /= 2) {
-            if (N % 2 == 0) {
+        for (int j = 0; n > 0; n /= 2) {
+            if (n % 2 == 0) {
                 j++;
             } else {
                 if (j > binaryGap && found_one == true){

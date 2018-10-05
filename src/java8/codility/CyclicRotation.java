@@ -1,4 +1,4 @@
-package java8;
+package java8.codility;
 
 
 import java.util.Arrays;
@@ -24,9 +24,9 @@ public class CyclicRotation {
             throw new IllegalArgumentException("The array must be non-null and the order must be non-negative");
         }
         int offset = arr.length - k % arr.length;
-        if (offset > 0) {
+        if (offset > 0 ) {
             for (int i = 0; i <  k; i++){
-                for (int j = arr.length - 1; j > 0; j--) {
+                for (int j = (arr.length - 1); j > 0; j--) {
                     int temp = arr[j];
                     arr[j] = arr[j - 1];
                     arr[j - 1] = temp;

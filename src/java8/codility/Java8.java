@@ -1,7 +1,7 @@
 /**
  *
  */
-package java8;
+package java8.codility;
 
 import java.util.*;
 import java.util.stream.Collectors;

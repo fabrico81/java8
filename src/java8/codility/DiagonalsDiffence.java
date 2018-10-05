@@ -1,4 +1,4 @@
-package java8;
+package java8.codility;
 
 public class DiagonalsDiffence {
 

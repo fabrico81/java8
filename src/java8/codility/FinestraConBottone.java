@@ -1,4 +1,4 @@
-package java8;
+package java8.codility;
 
 import java.awt.Button;
 import java.awt.Frame;
