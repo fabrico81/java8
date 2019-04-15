@@ -26,7 +26,6 @@ public class FrogJmp {
     }
 
     public static int solution(int x, int y, int d){
-        int i = 0;
         if ((y - x) % d == 0) {
             return (y - x) / d;
         }
