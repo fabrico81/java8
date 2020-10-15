@@ -34,5 +34,7 @@ public class Customer extends Person {
         customer.setPhone("Phone");
         System.out.println("Customer = " + customer.toString());
 
+        Person cst = new Customer();
+
     }
 }

@@ -6,13 +6,14 @@ public class Book {
     private String author;
 
     public Book(String title, String author){
-        this(title);
+        this.title=title;
         setAuthor(author);
 //        System.out.println("Title: " + title +"Author:"+ author);
     }
     public Book(String title){
         setTitle(title);
     }
+
     public Book (){
         System.out.println("This is Book");
     };
@@ -30,6 +31,6 @@ public class Book {
     }
 
     public void setAuthor(String author) {
-        this.author = this.author;
+        this.author = author;
     }
 }

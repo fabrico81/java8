@@ -1,6 +1,6 @@
 package java8.cpt_5;
 
-public class Race {
+class Race {
     private String name;
     private String result;
     private Car[] startingGrid ;
@@ -14,6 +14,7 @@ public class Race {
     static public void main(String[] args){
         Race race = new Race("Singapore");
         race.runRace();
+
         System.out.println( race.getResult());
     }
 
