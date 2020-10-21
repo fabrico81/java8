@@ -1,6 +1,6 @@
 package java8.cpt_5;
 
-public class Car {
+class Car {
 
     private String stable;
     private Driver driver;

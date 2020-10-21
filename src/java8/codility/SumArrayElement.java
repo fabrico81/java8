@@ -1,20 +1,42 @@
 package java8.codility;
 
 import java.util.stream.LongStream;
+import java.util.stream.Stream;
+
+import static java.lang.Integer.max;
 
 
 public class SumArrayElement {
 
 
-    static public void main(String []args){
+    public static void main(String[] args){
 
-        long t[] = {20000,-2, 2400000,200000, 2000,-2};
-        long sum = aVeryBigSum(t);
-        System.out.println("SUM :" + sum);
+
+//        Stream<Integer> s = Stream.of(5, 10, 20, 50);
+//        Integer i = s.reduce((integer1, integer2)-> integer2 - integer1).orElse(-1);
+//
+//        System.out.println(i);
+
+        int [] A = {8, 4, 0, 5, -3, 6};
+        System.out.println(solution(A));
+
     }
 
-    static Long aVeryBigSum(long arr[]){
-        Long sum = LongStream.of(arr).sum();
-        return sum;
+
+        public static int solution(int []A) {
+                int index = 0;
+                int result = 0;
+
+                for(int i = 0; i < A.length-1; i++){
+                    int total = A[i] + i + A[index] - index;
+                    result = max(result, total);
+                    if(A[i] - i > A[index] - index){
+                        index = i;
+                    }
+                }
+                return result;
     }
+
 }
+
+
