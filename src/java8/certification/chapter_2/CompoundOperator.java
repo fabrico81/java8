@@ -89,7 +89,7 @@ public class CompoundOperator {
             int y = 1;
             System.out.print(y++ + " ");
         } while(y <= 10);*/
-
+/*
         boolean keepGoing = true;
         int result = 15, i = 10;
         do {
@@ -98,8 +98,8 @@ public class CompoundOperator {
             result -= 2;
         } while(keepGoing);
         System.out.println(result);
-
-
+*/
+/*
         int count = 0;
         ROW_LOOP: for(int row = 1; row <=3; row++)
             for(int col = 1; col <=2 ; col++) {
@@ -107,13 +107,16 @@ public class CompoundOperator {
                 count++;
             }
         System.out.println(count);
+*/
 
-        int m = 9, n = 1, x = 0;
+
+/*        int m = 9, n = 1, x = 0;
         while(m > n) {
             m--;
             n += 2;
             x += m + n;
         }
+
         System.out.println(x);
 
         final char a = 'A', d = 'D';
@@ -158,7 +161,7 @@ public class CompoundOperator {
         }
         return id;
     }*/
-
+/*
     int roomInBelly = 5;
     public void eatCheese(int bitesOfCheese) {
         while (bitesOfCheese > 0 && roomInBelly > 0) {
@@ -166,7 +169,7 @@ public class CompoundOperator {
             roomInBelly--;
         }
         System.out.println(bitesOfCheese+" pieces of cheese left");
-    }
+    }*/
     /*
     public void loop() {
         for (long y = 0, int x = 4; x< 5 && y < 10; x++, y++){ // DOES NOT COMPILE
@@ -181,6 +184,7 @@ public class CompoundOperator {
         }
     }
     */
+/*
     public static void comma(){
         java.util.List<String> names = new java.util.ArrayList<String>();
         names.add("Lisa");
@@ -194,7 +198,8 @@ public class CompoundOperator {
             System.out.print(name);
         }
     }
-
+*/
+/*
     public static void nestedLoop() {
         int complexArray[][] = {{1,2,3,4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
         for (int [] mySimpleArray : complexArray) {
@@ -204,7 +209,8 @@ public class CompoundOperator {
             System.out.println();
         }
     }
-
+*/
+/*
     public static void doWhile() {
         int x = 20;
         while(x>0) {
@@ -238,5 +244,5 @@ public class CompoundOperator {
             System.out.println(message+","+x);
         }
     }
-    */
+    */}
 }
