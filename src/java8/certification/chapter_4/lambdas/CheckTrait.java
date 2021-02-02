@@ -6,4 +6,13 @@ package java8.certification.chapter_4.lambdas;
 
 public interface CheckTrait {
     boolean test(Animal a);
+
+    default void check(){
+
+        System.out.println(" I am the owner");
+    }
+
+    default int check(int i) {
+        return i;
+    }
 }
