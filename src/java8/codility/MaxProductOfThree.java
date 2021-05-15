@@ -57,7 +57,7 @@ Write an efficient algorithm for the following assumptions:
         }
 
         // Sort the array in ascending order
-    //    Arrays.sort(arr);
+    //    DataStructures.sort(arr);
 
         // Return the maximum of product of last three
         // elements and product of first two elements

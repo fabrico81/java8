@@ -10,7 +10,7 @@ public class BinaryGap {
 
     public static void main(String [] args){
 
-        System.out.println("binaryGap = " + binaryGap(1041));
+        System.out.println("binaryGap = " + binaryGap(529));
     }
 
     private static int binaryGap(int n){

@@ -9,5 +9,7 @@ public class Main {
         Hippo hippo = new Hippo();
         boolean b1 = elephant instanceof HeavyAnimal;
         boolean b2 = elephant instanceof Mother;
+        System.out.println(hippo.hashCode());
+        System.out.println(hippo.getClass());
     }
 }
