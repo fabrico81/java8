@@ -8,6 +8,10 @@ public class CompoundOperator {
 
 
     public static void main (String... args) {
+        byte a = 127;
+        byte b = 2;
+        byte c = 12 + 2;
+        System.out.println(c);
       /*  int a = 8;
         long b = 9;
         b = (a * b);
