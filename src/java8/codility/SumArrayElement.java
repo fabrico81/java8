@@ -1,8 +1,5 @@
 package java8.codility;
 
-import java.util.stream.LongStream;
-import java.util.stream.Stream;
-
 import static java.lang.Integer.max;
 
 

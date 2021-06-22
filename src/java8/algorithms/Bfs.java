@@ -1,13 +1,13 @@
 package java8.algorithms;
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 class Bfs {
     public static void main(String args[]) {
+
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
+
         while (t-- > 0) {
             ArrayList<ArrayList<Integer>> list = new ArrayList<>();
             int nov = sc.nextInt();
