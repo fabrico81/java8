@@ -1,4 +1,4 @@
-package certification;
+package java8.certification;
 
 public class MyStuff {
     String name;
